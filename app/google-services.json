@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "531495676904",
+    "firebase_url": "https://oritalfirebase.firebaseio.com",
+    "project_id": "oritalfirebase",
+    "storage_bucket": "oritalfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531495676904:android:311295115a02463b67125d",
+        "android_client_info": {
+          "package_name": "com.example.orital"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531495676904-c2ealnhkg7i4re9ngi1lpqtt4dsqpc2r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.orital",
+            "certificate_hash": "76ed9704987ec703c0b89ba9306681d367aab046"
+          }
+        },
+        {
+          "client_id": "531495676904-fd7gauknltsugcuvbsj4ofds26gbrjhf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXlKWH_NsZxZY7V_hA4YK03pifv6Lmew8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531495676904-fd7gauknltsugcuvbsj4ofds26gbrjhf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

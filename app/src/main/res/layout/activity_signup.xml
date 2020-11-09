@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignupActivity"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo2"
+
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WELCOME"
+            android:layout_gravity="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup To Start Your Healthy Life"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+
+
+            <EditText
+                android:id="@+id/et_regfull_name"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:textColorHint="#787171"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            </EditText>
+            <EditText
+                android:id="@+id/et_reguser_name"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:textColorHint="#787171"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            </EditText>
+            <EditText
+                android:id="@+id/et_regemail_address"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:textColorHint="#787171"
+                android:inputType="textEmailAddress"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            </EditText>
+            <EditText
+                android:id="@+id/et_regphone"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Phone Number"
+                android:inputType="number"
+                android:textColorHint="#787171"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            </EditText>
+            <EditText
+                android:id="@+id/et_regpassword"
+                android:layout_margin="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:textColorHint="#787171"
+                android:inputType="textPassword"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+            </EditText>
+
+            <Button
+                android:id="@+id/signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="GO"
+                android:background="#08F812" />
+            <Button
+                android:id="@+id/back_login"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already Have an Account? Login"
+                android:background="#00000000"
+                android:onClick="onbackloginclicked"/>
+
+
+
+
+
+        </LinearLayout>
+        <ProgressBar
+            android:id="@+id/progressbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:visibility="invisible">
+
+        </ProgressBar>
+    </LinearLayout>
+
+
+
+</ScrollView>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Logout"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_logout"
+        android:id="@+id/action_logout"/>
+
+
+
+    <item
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search"
+        android:id="@+id/action_search"/>
+    <item
+        android:title="Report"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_report"
+        android:id="@+id/action_report"/>
+    <item
+        android:title="Rate us"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_rate_review"
+        android:id="@+id/action_rating"/>
+    <item
+        android:title="Help"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_help"
+        android:id="@+id/action_help"/>
+    <item
+        android:title="settings"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/action_settings"/>
+
+</menu>
